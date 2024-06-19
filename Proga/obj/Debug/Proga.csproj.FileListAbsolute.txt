@@ -1,0 +1,104 @@
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\Proga.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\MainWindow.g.cs
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\Авторизация\Регистрация.g.cs
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\СтраницыПользователя\МенюПользователь.g.cs
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\App.g.cs
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\Proga_Content.g.cs
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\Proga_MarkupCompile.cache
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\Proga_MarkupCompile.lref
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\Авторизация\АвторизацияВсех.g.cs
+C:\Users\user\source\repos\Proga\Proga\bin\Debug\Proga.exe.config
+C:\Users\user\source\repos\Proga\Proga\bin\Debug\Proga.exe
+C:\Users\user\source\repos\Proga\Proga\bin\Debug\Proga.pdb
+C:\Users\user\source\repos\Proga\Proga\bin\Debug\EntityFramework.dll
+C:\Users\user\source\repos\Proga\Proga\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\source\repos\Proga\Proga\bin\Debug\EntityFramework.xml
+C:\Users\user\source\repos\Proga\Proga\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\source\repos\Proga\Proga\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\MainWindow.baml
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\Авторизация\АвторизацияВсех.baml
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\Авторизация\Регистрация.baml
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\СтраницыПользователя\МенюПользователь.baml
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\Proga.g.resources
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\Proga.Properties.Resources.resources
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\Proga.csproj.GenerateResource.cache
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\Proga.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\Proga.csproj.CopyComplete
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\Proga.exe
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\Proga.pdb
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\МенеджерСтраницы\МенюМенеджера.g.cs
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\СтраницыПользователя\ВсеЗаявки.g.cs
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\СтраницыПользователя\НоваяЗаявка.g.cs
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\МенеджерСтраницы\МенюМенеджера.baml
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\СтраницыПользователя\ВсеЗаявки.baml
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\СтраницыПользователя\НоваяЗаявка.baml
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\МенеджерСтраницы\ДобавитьСот.g.cs
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\МенеджерСтраницы\ЗаявкиМенеджер.g.cs
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\МенеджерСтраницы\ИзменитьМастера.g.cs
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\МенеджерСтраницы\ДобавитьСот.baml
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\МенеджерСтраницы\ЗаявкиМенеджер.baml
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\МенеджерСтраницы\ИзменитьМастера.baml
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\МенеджерСтраницы\СтатистикаКомпании.g.cs
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\СтраницыПользователя\РедактированиеОписания.g.cs
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\СтраницыРаботника\МенюРаботника.g.cs
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\МенеджерСтраницы\СтатистикаКомпании.baml
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\СтраницыПользователя\РедактированиеОписания.baml
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\СтраницыРаботника\МенюРаботника.baml
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\СтраницыРаботника\ЗаявкиРаботника.g.cs
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\СтраницыРаботника\ИзменениеКомментария.g.cs
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\СтраницыРаботника\СменаСтатуса.g.cs
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\СтраницыРаботника\ЗаявкиРаботника.baml
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\СтраницыРаботника\ИзменениеКомментария.baml
+C:\Users\user\source\repos\Proga\Proga\obj\Debug\СтраницыРаботника\СменаСтатуса.baml
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\Proga.csproj.AssemblyReference.cache
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\MainWindow.g.cs
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\Авторизация\АвторизацияВсех.g.cs
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\Авторизация\Регистрация.g.cs
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\МенеджерСтраницы\ДобавитьСот.g.cs
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\МенеджерСтраницы\ЗаявкиМенеджер.g.cs
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\МенеджерСтраницы\ИзменитьМастера.g.cs
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\МенеджерСтраницы\МенюМенеджера.g.cs
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\МенеджерСтраницы\СтатистикаКомпании.g.cs
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\СтраницыПользователя\ВсеЗаявки.g.cs
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\СтраницыПользователя\МенюПользователь.g.cs
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\СтраницыПользователя\НоваяЗаявка.g.cs
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\СтраницыПользователя\РедактированиеОписания.g.cs
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\СтраницыРаботника\ЗаявкиРаботника.g.cs
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\СтраницыРаботника\ИзменениеКомментария.g.cs
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\СтраницыРаботника\МенюРаботника.g.cs
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\СтраницыРаботника\СменаСтатуса.g.cs
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\App.g.cs
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\Proga_Content.g.cs
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\Proga_MarkupCompile.cache
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\Proga_MarkupCompile.lref
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\Proga.exe
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\Proga.pdb
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\bin\Debug\Proga.exe.config
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\bin\Debug\Proga.exe
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\bin\Debug\Proga.pdb
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\bin\Debug\EntityFramework.dll
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\bin\Debug\EntityFramework.xml
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\MainWindow.baml
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\Авторизация\АвторизацияВсех.baml
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\Авторизация\Регистрация.baml
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\МенеджерСтраницы\ДобавитьСот.baml
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\МенеджерСтраницы\ЗаявкиМенеджер.baml
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\МенеджерСтраницы\ИзменитьМастера.baml
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\МенеджерСтраницы\МенюМенеджера.baml
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\МенеджерСтраницы\СтатистикаКомпании.baml
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\СтраницыПользователя\ВсеЗаявки.baml
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\СтраницыПользователя\МенюПользователь.baml
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\СтраницыПользователя\НоваяЗаявка.baml
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\СтраницыПользователя\РедактированиеОписания.baml
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\СтраницыРаботника\ЗаявкиРаботника.baml
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\СтраницыРаботника\ИзменениеКомментария.baml
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\СтраницыРаботника\МенюРаботника.baml
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\СтраницыРаботника\СменаСтатуса.baml
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\Proga.g.resources
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\Proga.Properties.Resources.resources
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\Proga.csproj.GenerateResource.cache
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\Proga.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\Telegram Desktop\Proga\Proga\Proga\obj\Debug\Proga.csproj.Up2Date

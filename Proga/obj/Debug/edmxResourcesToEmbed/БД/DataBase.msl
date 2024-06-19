@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище DataBaseModelContainer" CdmEntityContainer="DataBaseEntities">
+    <EntitySetMapping Name="Заявка">
+      <EntityTypeMapping TypeName="DataBaseModel.Заявка">
+        <MappingFragment StoreEntitySet="Заявка">
+          <ScalarProperty Name="id_заявка" ColumnName="id_заявка" />
+          <ScalarProperty Name="Дата_добавления" ColumnName="Дата_добавления" />
+          <ScalarProperty Name="Вид_оборудования" ColumnName="Вид_оборудования" />
+          <ScalarProperty Name="Модель" ColumnName="Модель" />
+          <ScalarProperty Name="Описание_проблемы" ColumnName="Описание_проблемы" />
+          <ScalarProperty Name="ФИО_клиента" ColumnName="ФИО_клиента" />
+          <ScalarProperty Name="Телефон_клиента" ColumnName="Телефон_клиента" />
+          <ScalarProperty Name="ФИО_мастера" ColumnName="ФИО_мастера" />
+          <ScalarProperty Name="Статус_заявки" ColumnName="Статус_заявки" />
+          <ScalarProperty Name="Комментарий" ColumnName="Комментарий" />
+          <ScalarProperty Name="Дата_завершения" ColumnName="Дата_завершения" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Комментарий">
+      <EntityTypeMapping TypeName="DataBaseModel.Комментарий">
+        <MappingFragment StoreEntitySet="Комментарий">
+          <ScalarProperty Name="id_комментарий" ColumnName="id_комментарий" />
+          <ScalarProperty Name="Комментарий1" ColumnName="Комментарий" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Оборудование">
+      <EntityTypeMapping TypeName="DataBaseModel.Оборудование">
+        <MappingFragment StoreEntitySet="Оборудование">
+          <ScalarProperty Name="id_оборудование" ColumnName="id_оборудование" />
+          <ScalarProperty Name="Наименование_оборудования" ColumnName="Наименование_оборудования" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Пользователь">
+      <EntityTypeMapping TypeName="DataBaseModel.Пользователь">
+        <MappingFragment StoreEntitySet="Пользователь">
+          <ScalarProperty Name="ID_пользователь" ColumnName="ID_пользователь" />
+          <ScalarProperty Name="ID_роль" ColumnName="ID_роль" />
+          <ScalarProperty Name="ФИО" ColumnName="ФИО" />
+          <ScalarProperty Name="Телефон" ColumnName="Телефон" />
+          <ScalarProperty Name="Логин" ColumnName="Логин" />
+          <ScalarProperty Name="Пароль" ColumnName="Пароль" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Роль">
+      <EntityTypeMapping TypeName="DataBaseModel.Роль">
+        <MappingFragment StoreEntitySet="Роль">
+          <ScalarProperty Name="id_роль" ColumnName="id_роль" />
+          <ScalarProperty Name="Название_роли" ColumnName="Название_роли" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Статус">
+      <EntityTypeMapping TypeName="DataBaseModel.Статус">
+        <MappingFragment StoreEntitySet="Статус">
+          <ScalarProperty Name="id_статус" ColumnName="id_статус" />
+          <ScalarProperty Name="Наименование_статуса" ColumnName="Наименование_статуса" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

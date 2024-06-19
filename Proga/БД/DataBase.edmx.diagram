@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c45e6bc461d74c12bf57c2e2300f8e33" Name="Diagram1">
+        <EntityTypeShape EntityType="DataBaseModel.Заявка" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.Комментарий" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.Оборудование" Width="1.5" PointX="3" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.Пользователь" Width="1.5" PointX="3" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.Роль" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.Статус" Width="1.5" PointX="3" PointY="10.125" IsExpanded="true" />
+        <AssociationConnector Association="DataBaseModel.FK_Заявка_Комментарий" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_Заявка_Оборудование" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_Заявка_Пользователь" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_Заявка_Пользователь1" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_Заявка_Статус" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_Пользователь_Роль" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище DataBaseModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Заявка">
+    <Key>
+      <PropertyRef Name="id_заявка" />
+    </Key>
+    <Property Name="id_заявка" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Дата_добавления" Type="nvarchar" MaxLength="80" />
+    <Property Name="Вид_оборудования" Type="int" />
+    <Property Name="Модель" Type="nvarchar" MaxLength="80" />
+    <Property Name="Описание_проблемы" Type="nvarchar" MaxLength="100" />
+    <Property Name="ФИО_клиента" Type="int" />
+    <Property Name="Телефон_клиента" Type="nvarchar" MaxLength="20" />
+    <Property Name="ФИО_мастера" Type="int" />
+    <Property Name="Статус_заявки" Type="int" />
+    <Property Name="Комментарий" Type="int" />
+    <Property Name="Дата_завершения" Type="nvarchar" MaxLength="80" />
+  </EntityType>
+  <EntityType Name="Комментарий">
+    <Key>
+      <PropertyRef Name="id_комментарий" />
+    </Key>
+    <Property Name="id_комментарий" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Комментарий" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Оборудование">
+    <Key>
+      <PropertyRef Name="id_оборудование" />
+    </Key>
+    <Property Name="id_оборудование" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Наименование_оборудования" Type="nvarchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Пользователь">
+    <Key>
+      <PropertyRef Name="ID_пользователь" />
+    </Key>
+    <Property Name="ID_пользователь" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_роль" Type="int" Nullable="false" />
+    <Property Name="ФИО" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Телефон" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Логин" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Пароль" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Роль">
+    <Key>
+      <PropertyRef Name="id_роль" />
+    </Key>
+    <Property Name="id_роль" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Название_роли" Type="nchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Статус">
+    <Key>
+      <PropertyRef Name="id_статус" />
+    </Key>
+    <Property Name="id_статус" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Наименование_статуса" Type="nvarchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Заявка_Комментарий">
+    <End Role="Комментарий" Type="Self.Комментарий" Multiplicity="0..1" />
+    <End Role="Заявка" Type="Self.Заявка" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Комментарий">
+        <PropertyRef Name="id_комментарий" />
+      </Principal>
+      <Dependent Role="Заявка">
+        <PropertyRef Name="Комментарий" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Заявка_Оборудование">
+    <End Role="Оборудование" Type="Self.Оборудование" Multiplicity="0..1" />
+    <End Role="Заявка" Type="Self.Заявка" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Оборудование">
+        <PropertyRef Name="id_оборудование" />
+      </Principal>
+      <Dependent Role="Заявка">
+        <PropertyRef Name="Вид_оборудования" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Заявка_Пользователь">
+    <End Role="Пользователь" Type="Self.Пользователь" Multiplicity="0..1" />
+    <End Role="Заявка" Type="Self.Заявка" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Пользователь">
+        <PropertyRef Name="ID_пользователь" />
+      </Principal>
+      <Dependent Role="Заявка">
+        <PropertyRef Name="ФИО_клиента" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Заявка_Пользователь1">
+    <End Role="Пользователь" Type="Self.Пользователь" Multiplicity="0..1" />
+    <End Role="Заявка" Type="Self.Заявка" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Пользователь">
+        <PropertyRef Name="ID_пользователь" />
+      </Principal>
+      <Dependent Role="Заявка">
+        <PropertyRef Name="ФИО_мастера" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Заявка_Статус">
+    <End Role="Статус" Type="Self.Статус" Multiplicity="0..1" />
+    <End Role="Заявка" Type="Self.Заявка" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Статус">
+        <PropertyRef Name="id_статус" />
+      </Principal>
+      <Dependent Role="Заявка">
+        <PropertyRef Name="Статус_заявки" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Пользователь_Роль">
+    <End Role="Роль" Type="Self.Роль" Multiplicity="1" />
+    <End Role="Пользователь" Type="Self.Пользователь" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Роль">
+        <PropertyRef Name="id_роль" />
+      </Principal>
+      <Dependent Role="Пользователь">
+        <PropertyRef Name="ID_роль" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище DataBaseModelContainer">
+    <EntitySet Name="Заявка" EntityType="Self.Заявка" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Комментарий" EntityType="Self.Комментарий" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Оборудование" EntityType="Self.Оборудование" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Пользователь" EntityType="Self.Пользователь" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Роль" EntityType="Self.Роль" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Статус" EntityType="Self.Статус" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Заявка_Комментарий" Association="Self.FK_Заявка_Комментарий">
+      <End Role="Комментарий" EntitySet="Комментарий" />
+      <End Role="Заявка" EntitySet="Заявка" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Заявка_Оборудование" Association="Self.FK_Заявка_Оборудование">
+      <End Role="Оборудование" EntitySet="Оборудование" />
+      <End Role="Заявка" EntitySet="Заявка" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Заявка_Пользователь" Association="Self.FK_Заявка_Пользователь">
+      <End Role="Пользователь" EntitySet="Пользователь" />
+      <End Role="Заявка" EntitySet="Заявка" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Заявка_Пользователь1" Association="Self.FK_Заявка_Пользователь1">
+      <End Role="Пользователь" EntitySet="Пользователь" />
+      <End Role="Заявка" EntitySet="Заявка" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Заявка_Статус" Association="Self.FK_Заявка_Статус">
+      <End Role="Статус" EntitySet="Статус" />
+      <End Role="Заявка" EntitySet="Заявка" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Пользователь_Роль" Association="Self.FK_Пользователь_Роль">
+      <End Role="Роль" EntitySet="Роль" />
+      <End Role="Пользователь" EntitySet="Пользователь" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

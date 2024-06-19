@@ -1,0 +1,38 @@
+﻿<Page x:Class="Proga.СтраницыРаботника.СменаСтатуса"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Proga.СтраницыРаботника"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="СменаСтатуса">
+
+    <Grid Background="Gray">
+        <StackPanel Margin="50,50,151,49.6" >
+            <StackPanel Height="343"   HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="100,0,10.2,0">
+
+
+
+
+                <StackPanel Orientation="Horizontal" Margin="0 40 0 0 ">
+                    <Label Name="qq" Content="Текущий статус заявки:"  HorizontalAlignment="Center"  Width="149"/>
+                    <TextBox x:Name="Problem_tb" Text="{Binding Статус.Наименование_статуса}" Height="29" TextWrapping="Wrap" Width="281"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0 40 0 0 ">
+                    <Label Content="Новый статус заявки:"  HorizontalAlignment="Center"  Width="145"/>
+                    <ComboBox x:Name="Статус_cb" 
+          SelectedValue="{Binding Статус.id_статус}" 
+          ItemsSource="{Binding Статус}" 
+          DisplayMemberPath="Наименование_статуса" 
+          SelectionChanged="Статус_cb_SelectionChanged" Width="288"/>
+                </StackPanel>
+                <StackPanel  Height="50" >
+                    <Button x:Name="SaveButton" Click="SaveButton_Click" Content="Сохранить" Width="70"  Margin="20" Background="Yellow" />
+                </StackPanel>
+
+            </StackPanel>
+
+        </StackPanel>
+    </Grid>
+</Page>
